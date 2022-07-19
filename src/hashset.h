@@ -2,9 +2,9 @@
 
 class MyHashSet {
 private:
-	vector<bool> table;
+    vector<bool> table;
 public:
-	MyHashSet() : table(1e6 + 1, false) {}
+    MyHashSet() : table(1e6 + 1, false) {}
     
     void add(int key) {
         
