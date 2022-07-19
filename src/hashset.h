@@ -1,13 +1,10 @@
 #pragma once
 
-#include<iostream>
-#include<vector>
-
 class MyHashSet {
+private:
+	vector<bool> table;
 public:
-    MyHashSet() {
-        
-    }
+	MyHashSet() : table(1e6 + 1, false) {}
     
     void add(int key) {
         
