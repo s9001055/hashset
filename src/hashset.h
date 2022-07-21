@@ -11,7 +11,7 @@ public:
     }
     
     void remove(int key) {
-        
+	table[key] = false;
     }
     
     bool contains(int key) {
