@@ -15,6 +15,7 @@ public:
     }
     
     bool contains(int key) {
-        
+        // chia branch
+        return table[key];
     }
 };
